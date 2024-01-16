@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  anytrack:
+    image: anytrack
+    build:
+      context: .
+      dockerfile: ./Dockerfile

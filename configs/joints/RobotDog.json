@@ -1,0 +1,16 @@
+    {
+        "num_joints": 4,
+        "joint_connections": [
+            [0, 1],
+            [1, 2],
+            [3, 4],
+            [4, 5]
+        ],
+        "joints_name": ["front_upper", "front_mid", "front_foot", "rear_upper","rear_mid","rear_foot"],
+        "range_scale": 1,
+        "R": [
+            [1.0, 0.0, 0.0],
+            [0.0, 1.0, 0.0],
+            [0.0, 1.0, 0.0]
+        ]
+    }

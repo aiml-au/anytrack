@@ -1,0 +1,38 @@
+name: anytrack
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9.7=h12debd9_1
+  - cudatoolkit=11.7.0=hd8887f6_10
+  - pytorch=2.0.1=py3.9_cuda11.7_cudnn8.5.0_0
+  - ffmpeg
+  - h5py
+  - hdf5
+  - matplotlib
+  - natsort
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - plotly
+  - scipy
+  - torchvision
+  - tqdm
+  - yaml
+  - pip:
+    - opencv-python
+    - black
+    - flake8
+    - regex
+    - scikit-image
+    - scikit-learn
+    - json-tricks
+    - yacs
+    - tensorboardX
+    - tensorboard
+    - label-studio
+    - jsonschema
+    - attrs
+    - jupyter
+    - git+https://github.com/jonbarron/robust_loss_pytorch
