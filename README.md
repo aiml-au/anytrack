@@ -103,7 +103,7 @@ Training (Generate labels from AnyTrack)
 
     ./scripts/train.sh
 
-    ``Note:`` The scripts need to have views folder named as ``CAM_1, CAM_2 etc``.
+Note: The scripts need to have views folder named as `CAM_1, CAM_2, ...`.
 
 Evaluation and visualization
 ============
@@ -120,7 +120,7 @@ Demos
 jupyter notebook --ip 0.0.0.0 --no-browser
 ```
 
-``Note:`` Make sure [setup](#setup) is completed and to run notebooks in that environment.
+Note: Notebooks must be run in the respective python environment described in [Setup](#setup).
 
 
 Create a custom dataset
@@ -129,23 +129,23 @@ Create a custom dataset
 1.   Create a  json file as shown below in ``configs/joints/Corgi.json``
 
 
-    ```
-    {
-        "num_joints": 3,
-        "joint_connections": [
-            [0, 2],
-            [1, 2],
-            [0, 1]
-        ],
-        "joints_name": ["left_ear", "right_ear", "nose"],
-        "range_scale": 1,
-        "R": [
-            [1.0, 0.0, 0.0],
-            [0.0, 1.0, 0.0],
-            [0.0, 0.0, 1.0]
-        ]
-    }
-    ```
+```
+{
+"num_joints": 3,
+"joint_connections": [
+    [0, 2],
+    [1, 2],
+    [0, 1]
+],
+"joints_name": ["left_ear", "right_ear", "nose"],
+"range_scale": 1,
+"R": [
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0]
+]
+}
+```
 
 * The `joints_connections` are a line drawn between a number of indecies for verticies of a keypoint detector as listed in ``joints_name`` so in this example ``left_ear`` is the first (index 0) joint and ``nose`` is the last (index 2) joint.
 
@@ -265,6 +265,6 @@ If you use our code, dataset, or models in your research, please cite with:
 
 ### Licensing
 
-AnyTrack is available for non-commercial internal research use by academic institutions or not-for-profit organisations only, free of charge. Please, see the [license](LICENSE) for further details. To the extent permitted by applicable law, your use is at your own risk and our liability is limited. Interested in a commercial license? For commercial queries, please email <aimlshop@adelaide.edu.au> with subject line AnyTrack Commercial License.
+AnyTrack is available for non-commercial internal research use by academic institutions or not-for-profit organisations only, free of charge. Please, see the [license](LICENSE) for further details. To the extent permitted by applicable law, your use is at your own risk and our liability is limited. Interested in a commercial license? For commercial queries, please email <aimlshop@adelaide.edu.au> with subject line "AnyTrack Commercial License".
 
 This is an [AIML Shop](https://shop.aiml.team) project.
