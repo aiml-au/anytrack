@@ -267,4 +267,4 @@ If you use our code, dataset, or models in your research, please cite with:
 
 AnyTrack is available for non-commercial internal research use by academic institutions or not-for-profit organisations only, free of charge. Please, see the [license](LICENSE) for further details. To the extent permitted by applicable law, your use is at your own risk and our liability is limited. Interested in a commercial license? For commercial queries, please email <aimlshop@adelaide.edu.au> with subject line "AnyTrack Commercial License".
 
-This is an [AIML Shop](https://shop.aiml.team) project.
+This is an [AIML Shop](https://aiml.shop) project.
